@@ -53,6 +53,10 @@ def countFrequency(my_list):
          list1[item] +=1
       else:
          list1[item]=1
+   for key,value in list1.item():
+      print(key,value)
+
+
 my_list = ["apple","tomatoes","apple","mangoes"]  
 countFrequency(my_list)       
   

@@ -46,6 +46,15 @@ else:
 # each string appears in the list, using a dictionary and conditional statements.  
    
    
-
+def countFrequency(my_list):
+   list1 = {}
+   for item in my_list:
+      if(item in list1):
+         list1[item] +=1
+      else:
+         list1[item]=1
+my_list = ["apple","tomatoes","apple","mangoes"]  
+countFrequency(my_list)       
+  
 
 
